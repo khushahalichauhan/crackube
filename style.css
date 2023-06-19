@@ -1,0 +1,565 @@
+body {
+    background: #141518;
+}
+
+
+@font-face {
+    font-family: 'Clash Display';
+    src: url('./OTF/ClashDisplay-Medium.otf') format('woff2');
+}
+
+button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.democompany {
+    position: absolute;
+    width: 193px;
+    height: 32px;
+    left: 36px;
+    top: 36px;
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFBB29;
+}
+
+.header {
+    position: absolute;
+    width: 1440px;
+    height: 318px;
+    left: 0px;
+    top: 0px;
+    background: #1D1F25;
+}
+
+.line {
+    position: absolute;
+    width: 1440px;
+    height: 0px;
+    left: 0px;
+    top: 103px;
+
+    opacity: 0.15;
+    border: 1px solid #FFFFFF;
+}
+
+.headbtn {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+#home {
+    position: absolute;
+    width: 42px;
+    height: 21px;
+    left: 290px;
+    top: 41px;
+}
+
+#about {
+    position: absolute;
+    width: 43px;
+    height: 21px;
+    left: 372px;
+    top: 41px;
+}
+
+#work {
+    position: absolute;
+    width: 37px;
+    height: 21px;
+    left: 455px;
+    top: 41px;
+}
+
+#pricing {
+    position: absolute;
+    width: 49px;
+    height: 21px;
+    left: 532px;
+    top: 41px;
+}
+
+#blog {
+    position: absolute;
+    width: 31px;
+    height: 21px;
+    left: 621px;
+    top: 41px;
+    color: #FFBB29;
+}
+
+.hsidebtn {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+
+
+.mainline {
+    position: absolute;
+    width: 778px;
+    height: 60px;
+    left: 40px;
+    top: 143px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.searchbox {
+    position: absolute;
+    width: 448px;
+    height: 45px;
+    left: 40px;
+    top: 243px;
+    background: #282C38;
+    border-radius: 6px;
+}
+
+.searchtext {
+    position: absolute;
+    width: 90px;
+    height: 21px;
+    left: 60px;
+    top: 12px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #757B8C;
+}
+
+
+.sidebox1 {
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    left: 1298px;
+    top: 244px;
+
+    background: #282C38;
+    border-radius: 5px;
+}
+
+.ele1 {
+    position: absolute;
+    height: 8.5px;
+    width: 13px;
+    left: 12px;
+    top: 12px;
+    border-radius: 2px;
+    background: #757B8C;
+}
+
+.ele2 {
+    position: absolute;
+    height: 8.5px;
+    width: 20px;
+    left: 12px;
+    top: 23.5px;
+    border-radius: 2px;
+    background: #757B8C;
+}
+
+.sidebox2 {
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    left: 1357px;
+    top: 244px;
+    background: #FFBB29;
+    border-radius: 5px;
+}
+
+
+#ele2_1 {
+    position: absolute;
+    height: 8.490128517150879px;
+    width: 8.5px;
+    left: 12px;
+    top: 12px;
+    border-radius: 2px;
+    background: #141518;
+}
+
+#ele2_2 {
+    position: absolute;
+    height: 8.490128517150879px;
+    width: 8.5px;
+    left: 23.5px;
+    top: 12px;
+    border-radius: 2px;
+    background: #141518;
+}
+
+#ele2_3 {
+    position: absolute;
+    height: 8.490128517150879px;
+    width: 8.5px;
+    left: 12px;
+    top: 23.5px;
+    border-radius: 2px;
+    background: #141518;
+}
+
+#ele2_4 {
+    position: absolute;
+    height: 8.490128517150879px;
+    width: 8.5px;
+    left: 23.5px;
+    top: 23.5px;
+    border-radius: 2px;
+    background: #141518;
+}
+
+.btnarea {
+    background-color: white;
+}
+
+#All {
+    position: absolute;
+    width: 68px;
+    height: 50px;
+    left: 40px;
+    top: 358px;
+
+    background: #FFBB29;
+    border-radius: 50px;
+}
+
+#Technology {
+    position: absolute;
+    width: 143px;
+    height: 50px;
+    left: 132px;
+    top: 358px;
+    background: #1D1F25;
+    border-radius: 50px;
+}
+
+#Education {
+    position: absolute;
+    width: 130px;
+    height: 50px;
+    left: 299px;
+    top: 358px;
+
+    background: #1D1F25;
+    border-radius: 50px;
+}
+
+#Lifestyle {
+    position: absolute;
+    width: 113px;
+    height: 50px;
+    left: 453px;
+    top: 358px;
+
+    background: #1D1F25;
+    border-radius: 50px;
+}
+
+#Healthcare {
+    position: absolute;
+    width: 138px;
+    height: 50px;
+    left: 590px;
+    top: 358px;
+
+    background: #1D1F25;
+    border-radius: 50px;
+}
+
+#Sport {
+    position: absolute;
+    width: 91px;
+    height: 50px;
+    left: 752px;
+    top: 358px;
+
+    background: #1D1F25;
+    border-radius: 50px;
+}
+
+#Food {
+    position: absolute;
+    width: 88px;
+    height: 50px;
+    left: 867px;
+    top: 358px;
+
+    background: #1D1F25;
+    border-radius: 50px;
+}
+
+p {
+    position: absolute;
+    height: 24px;
+    left: 24px;
+    top: 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+#all {
+    width: 20px;
+    color: #141518;
+}
+
+#tech {
+    width: 95px;
+}
+
+#edu {
+    width: 81px;
+}
+
+#life {
+    width: 65px;
+}
+
+#health {
+    width: 90px;
+}
+
+#sport {
+    width: 43px;
+}
+
+#food {
+    width: 40px;
+}
+
+.grid {
+    position: absolute;
+    width: 325px;
+    height: 454px;
+    left: 40px;
+    top: 448px;
+    background: #1D1F25;
+    border-radius: 10px;
+}
+
+#box1,
+#box5 {
+    left: 40px;
+}
+
+#box2,
+#box6 {
+    left: 385px;
+}
+
+#box3,
+#box7 {
+    left: 730px;
+}
+
+#box4,
+#box8 {
+    left: 1075px;
+}
+
+.imgbox {
+    position: absolute;
+    width: 325px;
+    height: 200px;
+    left: 40px;
+    top: 448px;
+}
+
+.imgbox2 {
+    top: 922px;
+}
+
+#img1,
+#img5 {
+    left: 40px;
+    background: url(https://img.freepik.com/free-vector/shining-circle-purple-lighting-isolated-dark-background_1441-2396.jpg?w=360);
+}
+
+#img2,
+#img6 {
+    left: 385px;
+    background: url(https://thumbs.dreamstime.com/b/close-up-woman-s-hand-pulling-carrot-out-ground-close-up-woman-s-hand-pulling-carrot-out-ground-259961845.jpg);
+}
+
+#img3,
+#img7 {
+    left: 730px;
+    background: url(https://thumbs.dreamstime.com/b/close-up-woman-s-hand-pulling-carrot-out-ground-close-up-woman-s-hand-pulling-carrot-out-ground-259961845.jpg);
+}
+
+#img4,
+#img8 {
+    left: 1075px;
+    background: url(https://thumbs.dreamstime.com/b/close-up-woman-s-hand-pulling-carrot-out-ground-close-up-woman-s-hand-pulling-carrot-out-ground-259961845.jpg);
+}
+
+.yellowline {
+    position: absolute;
+    width: 125px;
+    height: 21px;
+    left: 3.89%;
+    top: 220px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 8px;
+    color: #FFBB29;
+}
+
+.timeleft {
+    position: absolute;
+    width: 83px;
+    height: 21px;
+    left: 236px;
+    top: 220px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.headingline {
+    position: absolute;
+    height: 58px;
+    left: 3.89%;
+    right: 5%;
+    top: 56%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.contentline {
+    position: absolute;
+    height: 66px;
+    left: 3.89%;
+    right: 5%;
+    top: 70%;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #B5B5BE;
+
+}
+
+.readline {
+    position: absolute;
+    width: 76px;
+    height: 21px;
+    left: 3.89%;
+    top: 91%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFBB29;
+}
+
+.line2 {
+    position: absolute;
+    width: 325px;
+    height: 454px;
+    left: 40px;
+    top: 922px;
+    background: #1D1F25;
+    border-radius: 10px;
+}
+
+
+
+#settingimg {
+    position: absolute;
+    height: 15.731500625610352px;
+    width: 16.674999237060547px;
+    left: 1237.67px;
+    top: 43.13px;
+}
+
+
+#notifimg {
+    position: absolute;
+    height: 15.731500625610352px;
+    width: 16.674999237060547px;
+    left: 1294.87px;
+    top: 42.71px;
+}
+
+#reddot {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    left: 1305px;
+    top: 43px;
+    border-radius: 50%;
+    background: #EA4B4B;
+    border: 1px solid #FFFFFF;
+}
+
+#searchimg {
+    position: absolute;
+    height: 15.833333015441895px;
+    width: 15.833333015441895px;
+    left: 25.67px;
+    top: 14.67px;
+    border-radius: 0px;
+}
+
+#profileimg {
+    position: absolute;
+    height: 43px;
+    width: 43px;
+    left: 1357px;
+    top: 30px;
+    border-radius: 50%;
+}
